@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF591D711F243E4700DBA4E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF591D701F243E4700DBA4E0 /* AppDelegate.swift */; };
+		CF591D731F243E4700DBA4E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF591D721F243E4700DBA4E0 /* ViewController.swift */; };
+		CF591D761F243E4700DBA4E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF591D741F243E4700DBA4E0 /* Main.storyboard */; };
+		CF591D781F243E4700DBA4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF591D771F243E4700DBA4E0 /* Assets.xcassets */; };
+		CF591D7B1F243E4700DBA4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF591D791F243E4700DBA4E0 /* LaunchScreen.storyboard */; };
+		CF591D861F243E4700DBA4E0 /* mexamieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF591D851F243E4700DBA4E0 /* mexamieTests.swift */; };
+		CF591D911F243E4700DBA4E0 /* mexamieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF591D901F243E4700DBA4E0 /* mexamieUITests.swift */; };
+		CF591D961F243E4700DBA4E0 /* mexamie WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CF591D951F243E4700DBA4E0 /* mexamie WatchKit App.app */; };
+		CF591D9C1F243E4700DBA4E0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF591D9A1F243E4700DBA4E0 /* Interface.storyboard */; };
+		CF591D9E1F243E4700DBA4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF591D9D1F243E4700DBA4E0 /* Assets.xcassets */; };
+		CF591DA51F243E4700DBA4E0 /* mexamie WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF591DA41F243E4700DBA4E0 /* mexamie WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF591DAC1F243E4700DBA4E0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF591DAB1F243E4700DBA4E0 /* InterfaceController.swift */; };
+		CF591DAE1F243E4700DBA4E0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF591DAD1F243E4700DBA4E0 /* ExtensionDelegate.swift */; };
+		CF591DB01F243E4700DBA4E0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF591DAF1F243E4700DBA4E0 /* NotificationController.swift */; };
+		CF591DB21F243E4700DBA4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF591DB11F243E4700DBA4E0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF591D821F243E4700DBA4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF591D651F243E4700DBA4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF591D6C1F243E4700DBA4E0;
+			remoteInfo = mexamie;
+		};
+		CF591D8D1F243E4700DBA4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF591D651F243E4700DBA4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF591D6C1F243E4700DBA4E0;
+			remoteInfo = mexamie;
+		};
+		CF591D971F243E4700DBA4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF591D651F243E4700DBA4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF591D941F243E4700DBA4E0;
+			remoteInfo = "mexamie WatchKit App";
+		};
+		CF591DA61F243E4700DBA4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF591D651F243E4700DBA4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF591DA31F243E4700DBA4E0;
+			remoteInfo = "mexamie WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF591DB91F243E4700DBA4E0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CF591DA51F243E4700DBA4E0 /* mexamie WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF591DBD1F243E4700DBA4E0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CF591D961F243E4700DBA4E0 /* mexamie WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF591D6D1F243E4700DBA4E0 /* mexamie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mexamie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF591D701F243E4700DBA4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF591D721F243E4700DBA4E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF591D751F243E4700DBA4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF591D771F243E4700DBA4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF591D7A1F243E4700DBA4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF591D7C1F243E4700DBA4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF591D811F243E4700DBA4E0 /* mexamieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mexamieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF591D851F243E4700DBA4E0 /* mexamieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mexamieTests.swift; sourceTree = "<group>"; };
+		CF591D871F243E4700DBA4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF591D8C1F243E4700DBA4E0 /* mexamieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mexamieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF591D901F243E4700DBA4E0 /* mexamieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mexamieUITests.swift; sourceTree = "<group>"; };
+		CF591D921F243E4700DBA4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF591D951F243E4700DBA4E0 /* mexamie WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mexamie WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF591D9B1F243E4700DBA4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CF591D9D1F243E4700DBA4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF591D9F1F243E4700DBA4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF591DA41F243E4700DBA4E0 /* mexamie WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "mexamie WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF591DAA1F243E4700DBA4E0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CF591DAB1F243E4700DBA4E0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CF591DAD1F243E4700DBA4E0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CF591DAF1F243E4700DBA4E0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CF591DB11F243E4700DBA4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF591DB31F243E4700DBA4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF591D6A1F243E4700DBA4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF591D7E1F243E4700DBA4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF591D891F243E4700DBA4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF591DA11F243E4700DBA4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF591D641F243E4600DBA4E0 = {
+			isa = PBXGroup;
+			children = (
+				CF591D6F1F243E4700DBA4E0 /* mexamie */,
+				CF591D841F243E4700DBA4E0 /* mexamieTests */,
+				CF591D8F1F243E4700DBA4E0 /* mexamieUITests */,
+				CF591D991F243E4700DBA4E0 /* mexamie WatchKit App */,
+				CF591DA81F243E4700DBA4E0 /* mexamie WatchKit Extension */,
+				CF591D6E1F243E4700DBA4E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF591D6E1F243E4700DBA4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF591D6D1F243E4700DBA4E0 /* mexamie.app */,
+				CF591D811F243E4700DBA4E0 /* mexamieTests.xctest */,
+				CF591D8C1F243E4700DBA4E0 /* mexamieUITests.xctest */,
+				CF591D951F243E4700DBA4E0 /* mexamie WatchKit App.app */,
+				CF591DA41F243E4700DBA4E0 /* mexamie WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF591D6F1F243E4700DBA4E0 /* mexamie */ = {
+			isa = PBXGroup;
+			children = (
+				CF591D701F243E4700DBA4E0 /* AppDelegate.swift */,
+				CF591D721F243E4700DBA4E0 /* ViewController.swift */,
+				CF591D741F243E4700DBA4E0 /* Main.storyboard */,
+				CF591D771F243E4700DBA4E0 /* Assets.xcassets */,
+				CF591D791F243E4700DBA4E0 /* LaunchScreen.storyboard */,
+				CF591D7C1F243E4700DBA4E0 /* Info.plist */,
+			);
+			path = mexamie;
+			sourceTree = "<group>";
+		};
+		CF591D841F243E4700DBA4E0 /* mexamieTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF591D851F243E4700DBA4E0 /* mexamieTests.swift */,
+				CF591D871F243E4700DBA4E0 /* Info.plist */,
+			);
+			path = mexamieTests;
+			sourceTree = "<group>";
+		};
+		CF591D8F1F243E4700DBA4E0 /* mexamieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF591D901F243E4700DBA4E0 /* mexamieUITests.swift */,
+				CF591D921F243E4700DBA4E0 /* Info.plist */,
+			);
+			path = mexamieUITests;
+			sourceTree = "<group>";
+		};
+		CF591D991F243E4700DBA4E0 /* mexamie WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CF591D9A1F243E4700DBA4E0 /* Interface.storyboard */,
+				CF591D9D1F243E4700DBA4E0 /* Assets.xcassets */,
+				CF591D9F1F243E4700DBA4E0 /* Info.plist */,
+			);
+			path = "mexamie WatchKit App";
+			sourceTree = "<group>";
+		};
+		CF591DA81F243E4700DBA4E0 /* mexamie WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CF591DAB1F243E4700DBA4E0 /* InterfaceController.swift */,
+				CF591DAD1F243E4700DBA4E0 /* ExtensionDelegate.swift */,
+				CF591DAF1F243E4700DBA4E0 /* NotificationController.swift */,
+				CF591DB11F243E4700DBA4E0 /* Assets.xcassets */,
+				CF591DB31F243E4700DBA4E0 /* Info.plist */,
+				CF591DA91F243E4700DBA4E0 /* Supporting Files */,
+			);
+			path = "mexamie WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CF591DA91F243E4700DBA4E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF591DAA1F243E4700DBA4E0 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF591D6C1F243E4700DBA4E0 /* mexamie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF591DBE1F243E4700DBA4E0 /* Build configuration list for PBXNativeTarget "mexamie" */;
+			buildPhases = (
+				CF591D691F243E4700DBA4E0 /* Sources */,
+				CF591D6A1F243E4700DBA4E0 /* Frameworks */,
+				CF591D6B1F243E4700DBA4E0 /* Resources */,
+				CF591DBD1F243E4700DBA4E0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF591D981F243E4700DBA4E0 /* PBXTargetDependency */,
+			);
+			name = mexamie;
+			productName = mexamie;
+			productReference = CF591D6D1F243E4700DBA4E0 /* mexamie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF591D801F243E4700DBA4E0 /* mexamieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF591DC11F243E4700DBA4E0 /* Build configuration list for PBXNativeTarget "mexamieTests" */;
+			buildPhases = (
+				CF591D7D1F243E4700DBA4E0 /* Sources */,
+				CF591D7E1F243E4700DBA4E0 /* Frameworks */,
+				CF591D7F1F243E4700DBA4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF591D831F243E4700DBA4E0 /* PBXTargetDependency */,
+			);
+			name = mexamieTests;
+			productName = mexamieTests;
+			productReference = CF591D811F243E4700DBA4E0 /* mexamieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF591D8B1F243E4700DBA4E0 /* mexamieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF591DC41F243E4700DBA4E0 /* Build configuration list for PBXNativeTarget "mexamieUITests" */;
+			buildPhases = (
+				CF591D881F243E4700DBA4E0 /* Sources */,
+				CF591D891F243E4700DBA4E0 /* Frameworks */,
+				CF591D8A1F243E4700DBA4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF591D8E1F243E4700DBA4E0 /* PBXTargetDependency */,
+			);
+			name = mexamieUITests;
+			productName = mexamieUITests;
+			productReference = CF591D8C1F243E4700DBA4E0 /* mexamieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CF591D941F243E4700DBA4E0 /* mexamie WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF591DBA1F243E4700DBA4E0 /* Build configuration list for PBXNativeTarget "mexamie WatchKit App" */;
+			buildPhases = (
+				CF591D931F243E4700DBA4E0 /* Resources */,
+				CF591DB91F243E4700DBA4E0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF591DA71F243E4700DBA4E0 /* PBXTargetDependency */,
+			);
+			name = "mexamie WatchKit App";
+			productName = "mexamie WatchKit App";
+			productReference = CF591D951F243E4700DBA4E0 /* mexamie WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CF591DA31F243E4700DBA4E0 /* mexamie WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF591DB61F243E4700DBA4E0 /* Build configuration list for PBXNativeTarget "mexamie WatchKit Extension" */;
+			buildPhases = (
+				CF591DA01F243E4700DBA4E0 /* Sources */,
+				CF591DA11F243E4700DBA4E0 /* Frameworks */,
+				CF591DA21F243E4700DBA4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mexamie WatchKit Extension";
+			productName = "mexamie WatchKit Extension";
+			productReference = CF591DA41F243E4700DBA4E0 /* mexamie WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF591D651F243E4700DBA4E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "maxwell Anane";
+				TargetAttributes = {
+					CF591D6C1F243E4700DBA4E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CF591D801F243E4700DBA4E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF591D6C1F243E4700DBA4E0;
+					};
+					CF591D8B1F243E4700DBA4E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF591D6C1F243E4700DBA4E0;
+					};
+					CF591D941F243E4700DBA4E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CF591DA31F243E4700DBA4E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF591D681F243E4700DBA4E0 /* Build configuration list for PBXProject "mexamie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF591D641F243E4600DBA4E0;
+			productRefGroup = CF591D6E1F243E4700DBA4E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF591D6C1F243E4700DBA4E0 /* mexamie */,
+				CF591D801F243E4700DBA4E0 /* mexamieTests */,
+				CF591D8B1F243E4700DBA4E0 /* mexamieUITests */,
+				CF591D941F243E4700DBA4E0 /* mexamie WatchKit App */,
+				CF591DA31F243E4700DBA4E0 /* mexamie WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF591D6B1F243E4700DBA4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF591D7B1F243E4700DBA4E0 /* LaunchScreen.storyboard in Resources */,
+				CF591D781F243E4700DBA4E0 /* Assets.xcassets in Resources */,
+				CF591D761F243E4700DBA4E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF591D7F1F243E4700DBA4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF591D8A1F243E4700DBA4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF591D931F243E4700DBA4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF591D9E1F243E4700DBA4E0 /* Assets.xcassets in Resources */,
+				CF591D9C1F243E4700DBA4E0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF591DA21F243E4700DBA4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF591DB21F243E4700DBA4E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF591D691F243E4700DBA4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF591D731F243E4700DBA4E0 /* ViewController.swift in Sources */,
+				CF591D711F243E4700DBA4E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF591D7D1F243E4700DBA4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF591D861F243E4700DBA4E0 /* mexamieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF591D881F243E4700DBA4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF591D911F243E4700DBA4E0 /* mexamieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF591DA01F243E4700DBA4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF591DB01F243E4700DBA4E0 /* NotificationController.swift in Sources */,
+				CF591DAE1F243E4700DBA4E0 /* ExtensionDelegate.swift in Sources */,
+				CF591DAC1F243E4700DBA4E0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF591D831F243E4700DBA4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF591D6C1F243E4700DBA4E0 /* mexamie */;
+			targetProxy = CF591D821F243E4700DBA4E0 /* PBXContainerItemProxy */;
+		};
+		CF591D8E1F243E4700DBA4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF591D6C1F243E4700DBA4E0 /* mexamie */;
+			targetProxy = CF591D8D1F243E4700DBA4E0 /* PBXContainerItemProxy */;
+		};
+		CF591D981F243E4700DBA4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF591D941F243E4700DBA4E0 /* mexamie WatchKit App */;
+			targetProxy = CF591D971F243E4700DBA4E0 /* PBXContainerItemProxy */;
+		};
+		CF591DA71F243E4700DBA4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF591DA31F243E4700DBA4E0 /* mexamie WatchKit Extension */;
+			targetProxy = CF591DA61F243E4700DBA4E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF591D741F243E4700DBA4E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF591D751F243E4700DBA4E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF591D791F243E4700DBA4E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF591D7A1F243E4700DBA4E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CF591D9A1F243E4700DBA4E0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF591D9B1F243E4700DBA4E0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF591DB41F243E4700DBA4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF591DB51F243E4700DBA4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF591DB71F243E4700DBA4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "mexamie WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mexamie-LLC.mexamie.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		CF591DB81F243E4700DBA4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "mexamie WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mexamie-LLC.mexamie.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		CF591DBB1F243E4700DBA4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = mexamie_WatchKit_Extension;
+				INFOPLIST_FILE = "mexamie WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mexamie-LLC.mexamie.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		CF591DBC1F243E4700DBA4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = mexamie_WatchKit_Extension;
+				INFOPLIST_FILE = "mexamie WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mexamie-LLC.mexamie.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		CF591DBF1F243E4700DBA4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mexamie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mexamie-LLC.mexamie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF591DC01F243E4700DBA4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mexamie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mexamie-LLC.mexamie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF591DC21F243E4700DBA4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mexamieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mexamie-LLC.mexamieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mexamie.app/mexamie";
+			};
+			name = Debug;
+		};
+		CF591DC31F243E4700DBA4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mexamieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mexamie-LLC.mexamieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mexamie.app/mexamie";
+			};
+			name = Release;
+		};
+		CF591DC51F243E4700DBA4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = mexamieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mexamie-LLC.mexamieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mexamie;
+			};
+			name = Debug;
+		};
+		CF591DC61F243E4700DBA4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = mexamieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mexamie-LLC.mexamieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mexamie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF591D681F243E4700DBA4E0 /* Build configuration list for PBXProject "mexamie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF591DB41F243E4700DBA4E0 /* Debug */,
+				CF591DB51F243E4700DBA4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF591DB61F243E4700DBA4E0 /* Build configuration list for PBXNativeTarget "mexamie WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF591DB71F243E4700DBA4E0 /* Debug */,
+				CF591DB81F243E4700DBA4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF591DBA1F243E4700DBA4E0 /* Build configuration list for PBXNativeTarget "mexamie WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF591DBB1F243E4700DBA4E0 /* Debug */,
+				CF591DBC1F243E4700DBA4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF591DBE1F243E4700DBA4E0 /* Build configuration list for PBXNativeTarget "mexamie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF591DBF1F243E4700DBA4E0 /* Debug */,
+				CF591DC01F243E4700DBA4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF591DC11F243E4700DBA4E0 /* Build configuration list for PBXNativeTarget "mexamieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF591DC21F243E4700DBA4E0 /* Debug */,
+				CF591DC31F243E4700DBA4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF591DC41F243E4700DBA4E0 /* Build configuration list for PBXNativeTarget "mexamieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF591DC51F243E4700DBA4E0 /* Debug */,
+				CF591DC61F243E4700DBA4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF591D651F243E4700DBA4E0 /* Project object */;
+}
